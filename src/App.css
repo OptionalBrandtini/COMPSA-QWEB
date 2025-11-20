@@ -1,0 +1,40 @@
+.parentContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.nameContainer {
+  width: 50vw;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5%;
+  flex-direction: row;
+}
+
+.nameContainer h1 {
+  font-size: 5rem;
+}
+
+.imgContainer {
+  width: 50vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 2.5%;
+}
+
+.imgContainer a {
+  height: 75%;
+}
+
+.imgContainer img {
+  height: 100%;
+}
