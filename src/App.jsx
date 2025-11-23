@@ -1,25 +1,9 @@
 import "./App.css";
 import data from "./templateTools/templateConst.json";
+import PortfolioTemplate from "./components/PortfolioTemplate";
 
 function App() {
-  return (
-    <>
-      <div className={"parentContainer"}>
-        <div className={"nameContainer"}>
-          <h1>{data.firstName}</h1>
-          <h1>{data.lastName}</h1>
-        </div>
-        <div className={"imgContainer"}>
-          <a href={data.linkedInURL}>
-            <img src="/linkedin.svg" alt="LinkedIn Image" />
-          </a>
-          <a href={data.githubURL}>
-            <img src="/github.svg" alt="GitHub Image" />
-          </a>
-        </div>
-      </div>
-    </>
-  );
+  return <PortfolioTemplate data={data} />;
 }
 
 export default App;

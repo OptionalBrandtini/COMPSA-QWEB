@@ -1,6 +1,54 @@
 {
-  "firstName": "First Name",
-  "lastName": "Last Name",
-  "linkedInURL": "https://www.linkedin.com/",
-  "githubURL": "https://www.github.com/"
+  "firstName": "John",
+  "lastName": "Appleseed",
+  "role": "My Portfolio Website",
+  "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+  "profileImage": "https://icon-library.com/images/no-profile-picture-icon/no-profile-picture-icon-1.jpg",
+  "socials": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://instagram.com"
+    },
+    {
+      "name": "Email",
+      "url": "mailto:hello@example.com"
+    }
+  ],
+  "infoSectionTitle": "About Me",
+  "footerText": "© 2025 John Appleseed",
+  "info": [
+    {
+      "title": "My Cat",
+      "description": "My cat loves to nap and watch me code.",
+      "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+    },
+    {
+      "title": "Coffee",
+      "description": "I can't start my day without a good cup of coffee.",
+      "image": "https://images.unsplash.com/photo-1506372023823-741c83b836fe?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "title": "Nature",
+      "description": "Taking breaks to enjoy nature keeps me inspired.",
+      "image": "https://images.unsplash.com/photo-1420582282039-a6d11404cb66?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    }
+  ],
+  "colors": {
+    "heroBackgroundColor": "#ffffff",
+    "socialBackgroundColor": "#ffffff",
+    "showcaseBackgroundColor": "#ffffff",
+    "footerBackgroundColor": "#ffffff",
+    "textColor": "#0a0a0a",
+    "secondaryTextColor": "#737373",
+    "borderColor": "#e5e5e5",
+    "hoverColor": "#0a0a0a"
+  }
 }
