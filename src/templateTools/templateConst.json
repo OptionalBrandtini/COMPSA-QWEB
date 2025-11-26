@@ -1,8 +1,8 @@
 {
-  "firstName": "John",
-  "lastName": "Appleseed",
+  "firstName": "Jonathan",
+  "lastName": "Wong",
   "role": "My Portfolio Website",
-  "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+  "bio": "this is different now",
   "profileImage": "https://icon-library.com/images/no-profile-picture-icon/no-profile-picture-icon-1.jpg",
   "socials": [
     {
